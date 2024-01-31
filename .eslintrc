@@ -7,7 +7,12 @@
   },
   "plugins": ["@typescript-eslint"],
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
-  "rules": {},
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "request|response|next|value" }
+    ]
+  },
   "env": {
     "browser": true,
     "es2021": true
