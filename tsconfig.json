@@ -10,5 +10,8 @@
     "strict": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "enviroment.d.ts"],
+  "ts-node": {
+    "files": true
+  }
 }
