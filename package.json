@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "dev": "SET NODE_ENV=development&&nodemon",
+    "prod": "SET NODE_ENV=production&&nodemon"
   },
   "keywords": [],
   "author": "",
